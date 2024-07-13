@@ -1,0 +1,494 @@
+{
+    "season":2023,
+    "player":
+    [
+        {
+            "name":"林卓人",
+            "position":"GK",
+            "number":1,
+            "detail":{
+                "played":1,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"田中雄大",
+            "position":"GK",
+            "number":21,
+            "detail":{
+                "played":0,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"川浪吾郎",
+            "position":"GK",
+            "number":22,
+            "detail":{
+                "played":0,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"大迫敬介",
+            "position":"GK",
+            "number":39,
+            "detail":{
+                "played":34,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"住吉ジェラニレショーン",
+            "position":"DF",
+            "number":2,
+            "detail":{
+                "played":6,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":1
+            }
+        },
+        {
+            "name":"山崎大地",
+            "position":"DF",
+            "number":3,
+            "detail":{
+                "played":11,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"荒木隼人",
+            "position":"DF",
+            "number":4,
+            "detail":{
+                "played":32,
+                "goal": {
+                    "goal-count":1,
+                    "shot-type": {
+                        "right":0,
+                        "left":0,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":1,
+                        "outside":0
+                    },
+                    "conversion":3
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"佐々木翔",
+            "position":"DF",
+            "number":19,
+            "detail":{
+                "played":32,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"塩谷司",
+            "position":"DF",
+            "number":33,
+            "detail":{
+                "played":27,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":1,
+                        "left":1,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":0,
+                        "outside":2
+                    },
+                    "conversion":8
+                },
+                "assist":1
+            }
+        },
+        {
+            "name":"志知孝明",
+            "position":"DF",
+            "number":16,
+            "detail":{
+                "played":23,
+                "goal": {
+                    "goal-count":1,
+                    "shot-type": {
+                        "right":0,
+                        "left":1,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":1,
+                        "outside":0
+                    },
+                    "conversion":6
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"中野就斗",
+            "position":"DF",
+            "number":15,
+            "detail":{
+                "played":30,
+                "goal": {
+                    "goal-count":1,
+                    "shot-type": {
+                        "right":0,
+                        "left":0,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":1,
+                        "outside":0
+                    },
+                    "conversion":3
+                },
+                "assist":3
+            }
+        },
+        {
+            "name":"松本大弥",
+            "position":"MF",
+            "number":5,
+            "detail":{
+                "played":3,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"東峻希",
+            "position":"MF",
+            "number":23,
+            "detail":{
+                "played":33,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":0,
+                        "left":1,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":2,
+                        "outside":0
+                    },
+                    "conversion":5
+                },
+                "assist":2
+            }
+        },
+        {
+            "name":"青山敏弘",
+            "position":"MF",
+            "number":6,
+            "detail":{
+                "played":5,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"野津田岳人",
+            "position":"MF",
+            "number":7,
+            "detail":{
+                "played":27,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":1
+            }
+        },
+        {
+            "name":"川村拓夢",
+            "position":"MF",
+            "number":8,
+            "detail":{
+                "played":32,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":0,
+                        "left":2,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":2,
+                        "outside":0
+                    },
+                    "conversion":3
+                },
+                "assist":3
+            }
+        },
+        {
+            "name":"松本泰志",
+            "position":"MF",
+            "number":17,
+            "detail":{
+                "played":17,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"柏好文",
+            "position":"MF",
+            "number":18,
+            "detail":{
+                "played":9,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":1
+            }
+        },
+        {
+            "name":"茶島雄介",
+            "position":"MF",
+            "number":25,
+            "detail":{
+                "played":7,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":1,
+                        "left":1,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":2,
+                        "outside":0
+                    },
+                    "conversion":50
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"柴﨑晃誠",
+            "position":"MF",
+            "number":30,
+            "detail":{
+                "played":8,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"越道草太",
+            "position":"MF",
+            "number":32,
+            "detail":{
+                "played":16,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":2
+            }
+        },
+        {
+            "name":"エゼキエウ",
+            "position":"FW",
+            "number":14,
+            "detail":{
+                "played":25,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":1,
+                        "left":0,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":2,
+                        "outside":0
+                    },
+                    "conversion":6
+                },
+                "assist":4
+            }
+        },
+        {
+            "name":"マルコス・ジュニオール",
+            "position":"FW",
+            "number":10,
+            "detail":{
+                "played":25,
+                "goal": {
+                    "goal-count":3,
+                    "shot-type": {
+                        "right":2,
+                        "left":1,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":3,
+                        "outside":0
+                    },
+                    "conversion":13
+                },
+                "assist":4
+            }
+        },
+        {
+            "name":"満田誠",
+            "position":"FW",
+            "number":11,
+            "detail":{
+                "played":23,
+                "goal": {
+                    "goal-count":4,
+                    "shot-type": {
+                        "right":2,
+                        "left":1,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":4,
+                        "outside":0
+                    },
+                    "conversion":8
+                },
+                "assist":5
+            }
+        },
+        {
+            "name":"棚田遼",
+            "position":"FW",
+            "number":28,
+            "detail":{
+                "played":1,
+                "goal": {
+                    "goal-count": 0
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"加藤陸次樹",
+            "position":"FW",
+            "number":51,
+            "detail":{
+                "played":30,
+                "goal": {
+                    "goal-count":8,
+                    "shot-type": {
+                        "right":3,
+                        "left":1,
+                        "head":4
+                    },
+                    "area": {
+                        "inside":7,
+                        "outside":1
+                    },
+                    "conversion":13
+                },
+                "assist":4
+            }
+        },
+        {
+            "name":"ドウグラス・ヴィエイラ",
+            "position":"FW",
+            "number":9,
+            "detail":{
+                "played":27,
+                "goal": {
+                    "goal-count":8,
+                    "shot-type": {
+                        "right":7,
+                        "left":0,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":8,
+                        "outside":0
+                    },
+                    "conversion":20
+                },
+                "assist":1
+            }
+        },
+        {
+            "name":"ピエロス・ソティリウ",
+            "position":"FW",
+            "number":20,
+            "detail":{
+                "played":19,
+                "goal": {
+                    "goal-count":4,
+                    "shot-type": {
+                        "right":3,
+                        "left":0,
+                        "head":1
+                    },
+                    "area": {
+                        "inside":4,
+                        "outside":0
+                    },
+                    "conversion":13
+                },
+                "assist":0
+            }
+        },
+        {
+            "name":"ナッシム・ベンカリファ",
+            "position":"FW",
+            "number":13,
+            "detail":{
+                "played":26,
+                "goal": {
+                    "goal-count":2,
+                    "shot-type": {
+                        "right":2,
+                        "left":0,
+                        "head":0
+                    },
+                    "area": {
+                        "inside":2,
+                        "outside":0
+                    },
+                    "conversion":5
+                },
+                "assist":1
+            }
+        }
+    ]
+}
