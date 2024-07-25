@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid System Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .demo-col {
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Bootstrapグリッドシステムの例</h1>
+
+        <!-- 基本的な12列システム -->
+        <h2>1. 基本的な12列システム</h2>
+        <div class="row">
+            <div class="col-4 demo-col">Col-4</div>
+            <div class="col-4 demo-col">Col-4</div>
+            <div class="col-4 demo-col">Col-4</div>
+        </div>
+
+        <!-- レスポンシブデザイン -->
+        <h2>2.0 レスポンシブデザイン</h2>
+        <p>デフォルト値=6:6 中画面サイズ値=5:7 大画面サイズ値=4:8</p>
+        <div class="row">
+            <p class="col-6 col-md-5 col-lg-4 demo-col">col-6 col-md-5 col-lg-4</p>
+            <p class="col-6 col-md-7 col-lg-8 demo-col">col-6 col-md-7 col-lg-8</p>
+        </div>
+
+        <h2>2.1 レスポンシブデザイン その２</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 demo-col">Col-12 Col-md-6 Col-lg-3</div>
+            <div class="col-12 col-md-6 col-lg-3 demo-col">Col-12 Col-md-6 Col-lg-3</div>
+            <div class="col-12 col-md-6 col-lg-3 demo-col">Col-12 Col-md-6 Col-lg-3</div>
+            <div class="col-12 col-md-6 col-lg-3 demo-col">Col-12 Col-md-6 Col-lg-3</div>
+        </div>
+
+        <!-- 自動幅調整 -->
+        <h2>3. 自動幅調整</h2>
+        <div class="row">
+            <div class="col demo-col">Auto Col</div>
+            <div class="col demo-col">Auto Col</div>
+            <div class="col demo-col">Auto Col</div>
+        </div>
+
+        <!-- オフセットと順序 -->
+        <h2>4. オフセットと順序</h2>
+        <div class="row">
+            <div class="col-md-4 demo-col">Col-md-4</div>
+            <div class="col-md-4 offset-md-4 demo-col">Col-md-4 offset-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col order-3 demo-col">First, but ordered last</div>
+            <div class="col order-2 demo-col">Second, but ordered second</div>
+            <div class="col order-1 demo-col">Third, but ordered first</div>
+        </div>
+
+        <!-- ネスト -->
+        <h2>5. ネスト</h2>
+        <div class="row">
+            <div class="col-sm-9 demo-col">
+                Level 1: Col-sm-9
+                <div class="row">
+                    <div class="col-8 col-sm-6 demo-col">Level 2: Col-8 Col-sm-6</div>
+                    <div class="col-4 col-sm-6 demo-col">Level 2: Col-4 Col-sm-6</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ガター制御 -->
+        <h2>6. ガター制御</h2>
+        <div class="row gx-5">
+            <div class="col">
+                <div class="demo-col">Custom gutter</div>
+            </div>
+            <div class="col">
+                <div class="demo-col">Custom gutter</div>
+            </div>
+        </div>
+
+        <!-- 列の整列 -->
+        <h2>7. 列の整列</h2>
+        <div class="row align-items-start" style="height: 100px;">
+            <div class="col demo-col">Top aligned</div>
+            <div class="col demo-col">Top aligned</div>
+            <div class="col demo-col">Top aligned</div>
+        </div>
+        <div class="row align-items-center" style="height: 100px;">
+            <div class="col demo-col">Center aligned</div>
+            <div class="col demo-col">Center aligned</div>
+            <div class="col demo-col">Center aligned</div>
+        </div>
+
+        <!-- 可変幅列 -->
+        <h2>8. 可変幅列</h2>
+        <div class="row">
+            <div class="col-md-auto demo-col">可変幅コンテンツ</div>
+            <div class="col-md demo-col">残りのスペースを埋める</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
